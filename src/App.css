@@ -1,3 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=David+Libre:wght@400;500&family=Parisienne&display=swap');
+body{
+  font-family: 'David Libre', serif;
+  text-transform: capitalize;
+}
 .App {
   text-align: center;
 }
@@ -35,4 +40,60 @@
   to {
     transform: rotate(360deg);
   }
+}
+.icons{
+  letter-spacing: 1rem;
+}
+.icons i{
+ cursor: pointer;
+}
+.heroimg,.aboutimg{
+  background-image: url("./img/hero2.jpg");
+  height: 35.1rem;
+}
+.aboutimg{
+  filter: unset;
+}
+.myn{
+  padding: 10rem 0rem!important;
+}
+.exrow{
+  padding-left: 0!important;
+  padding-right: 0!important;
+}
+@media (min-width: 992px){
+.pt-lg-5 {
+    padding-top: 0!important;
+}
+}
+
+.blogimg{
+  height: 22rem;
+}
+
+a{
+  text-decoration: none;
+  color:black
+}
+.aboutcont{
+  max-width: 56rem;
+}
+.aimg {
+  width: 20rem;
+  height: 20rem;
+}
+.desc{
+  overflow: hidden;
+  height: 12rem;
+}
+.signature ,.navsignature{
+  font-family: 'Parisienne', cursive;
+  color: linear-gradient(red, yellow);
+  background: -webkit-linear-gradient(#6e3b16, #774319);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: #c4c2bba8;
+  font-size: 3rem;
+}
+.navsignature{
+  font-size: 1.5rem;
 }
