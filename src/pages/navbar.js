@@ -14,7 +14,7 @@ export const Navbar = () => {
     <div className="collapse navbar-collapse" id="navbarText">
       <ul className="navbar-nav me-auto mb-2 mb-lg-0">
         <li className="nav-item">
-          <Link className="nav-link active" aria-current="page" to="/blog">Blog</Link>
+          <Link className="nav-link active" aria-current="page" to="/blog">Projects</Link>
         </li>
         <li className="nav-item">
           <Link className="nav-link" to="/youtube">Youtube</Link>
